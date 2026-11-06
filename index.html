@@ -66,7 +66,6 @@
             pointer-events: none;
         }
 
-        /* Subtle outer gold frame on envelope screen */
         .envelope-border {
             position: absolute;
             top: 18px; left: 18px; right: 18px; bottom: 18px;
@@ -82,7 +81,6 @@
             border: 0.5px solid rgba(212, 175, 55, 0.15);
         }
 
-        /* Top Envelope Flap */
         .envelope-flap-top {
             position: absolute;
             top: 0; left: 0;
@@ -95,7 +93,6 @@
             box-shadow: 0 15px 40px rgba(0,0,0,0.9);
         }
 
-        /* Gold trim along the V-edge of the top flap */
         .envelope-flap-edge {
             position: absolute;
             top: 0; left: 0;
@@ -107,7 +104,6 @@
             z-index: 2;
         }
 
-        /* Bottom Pocket Lines */
         .envelope-pocket-bottom {
             position: absolute;
             bottom: 0; left: 0;
@@ -123,7 +119,6 @@
             transform: rotateX(180deg);
         }
 
-        /* Envelope Center Typography Plaque */
         .envelope-content {
             position: relative;
             z-index: 5;
@@ -148,7 +143,6 @@
             margin-bottom: 15px;
         }
 
-        /* Indianized Royal Calligraphy Font for Envelope Names */
         .gold-foil-names {
             font-family: 'Tangerine', cursive;
             font-size: clamp(3.8rem, 15vw, 6rem);
@@ -172,7 +166,6 @@
             letter-spacing: 2px;
         }
 
-        /* 3D Luxury Gold Wax Seal */
         .wax-seal-wrapper {
             margin: 28px auto 12px auto;
             display: flex;
@@ -287,9 +280,8 @@
         }
 
         .bg-slide-1 { background-image: url('3ae5e1fd0759a9d37f9ea03ef4c1c755.jpg'); }
-        .bg-slide-2 { background-image: url('b3219ac4a5758c971474439a28830d00.jpg'); }
-        .bg-slide-3 { background-image: url('7f00c9acee3ca2a463cbbe19b6335510.jpg'); }
-        .bg-slide-4 { background-image: url('623db16133a6758f32539fd6d8303f46.jpg'); }
+        .bg-slide-2 { background-image: url('b3219ac4a5758c971474439a28830d00.jpg'); } /* Used for Engagement */
+        .bg-slide-3 { background-image: url('623db16133a6758f32539fd6d8303f46.jpg'); } /* Used for RSVP/Countdown */
 
         /* 
          * HORIZONTAL CAROUSEL FOR COUPLE PHOTOS
@@ -915,46 +907,9 @@
             <div class="swipe-indicator">Swipe Down</div>
         </section>
 
-        <!-- SLIDE 3: MADHURAMVEPPU -->
+        <!-- SLIDE 3: ENGAGEMENT -->
         <section class="slide">
             <div class="slide-bg bg-slide-2"></div>
-            <div class="slide-overlay"></div>
-            
-            <div class="editorial-wrapper">
-                <div class="vertical-line animate-item"></div>
-                <h2 class="event-heading animate-item">Madhuramveppu</h2>
-                <div class="horizontal-line animate-item"></div>
-                
-                <div class="date-highlight animate-item">December 25, 2026</div>
-                <div class="time-highlight animate-item">6:00 PM Onwards</div>
-                
-                <div class="animate-item" style="font-family: 'Cormorant Garamond', serif; font-style: italic; font-size: clamp(1.1rem, 4vw, 1.3rem); color: var(--soft-gold); margin-bottom: 6px; text-shadow: 0 2px 10px rgba(0,0,0,0.9);">
-                    At our Home
-                </div>
-                <div class="venue-bold animate-item">Veliyathumalil House</div>
-                <div class="details animate-item" style="font-size: 0.8em; letter-spacing: 2px;">Pulpally, Wayanad</div>
-                
-                <div class="action-btn-group animate-item">
-                    <!-- NEW GOOGLE MAPS LINK HERE -->
-                    <a href="https://maps.app.goo.gl/Q5rGi8FnhkVwkJ8m7?g_st=aw" target="_blank" class="map-btn">
-                        <svg class="map-icon" viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
-                        View Map
-                    </a>
-                    <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Sana+%26+Hazel+-+Madhuramveppu&dates=20261225T180000/20261225T220000&details=We+look+forward+to+celebrating+with+you!+Theme:+Florals+/+North+Indian+Attire&location=Veliyathumalil+House,+Pulpally,+Wayanad" target="_blank" class="map-btn">
-                        <svg class="map-icon" viewBox="0 0 24 24"><path d="M19 4h-1V2h-2v2H8V2H6v2H5c-1.11 0-1.99.9-1.99 2L3 20c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 16H5V10h14v10zm0-12H5V6h14v2z"/></svg>
-                        Save Date
-                    </a>
-                </div>
-
-                <div class="theme-note animate-item">Theme: Florals / North Indian Attire</div>
-            </div>
-            
-            <div class="swipe-indicator">Swipe Down</div>
-        </section>
-
-        <!-- SLIDE 4: ENGAGEMENT -->
-        <section class="slide">
-            <div class="slide-bg bg-slide-3"></div>
             <div class="slide-overlay"></div>
             
             <div class="editorial-wrapper">
@@ -985,9 +940,9 @@
             <div class="swipe-indicator">Swipe Down</div>
         </section>
 
-        <!-- SLIDE 5: COUNTDOWN & RSVP -->
+        <!-- SLIDE 4: COUNTDOWN & RSVP -->
         <section class="slide">
-            <div class="slide-bg bg-slide-4"></div>
+            <div class="slide-bg bg-slide-3"></div>
             <div class="slide-overlay"></div>
             
             <div class="editorial-wrapper">
@@ -1194,7 +1149,6 @@
         
         let isPlaying = false;
         
-        // Defined segments: [start, end] in seconds
         const segments = [
             { start: 1.0, end: 25.0 },
             { start: 59.0, end: 75.0 },
@@ -1215,7 +1169,7 @@
                 } else {
                     audio.volume = vol;
                 }
-            }, 50); // 50ms steps for smooth fade in
+            }, 50);
         }
 
         function fadeOutAndSwitch(nextSegment) {
@@ -1234,12 +1188,10 @@
             }, 40);
         }
 
-        // Monitor playback time to handle multi-segment looping with crossfade
         audio.addEventListener('timeupdate', () => {
             if (!isPlaying) return;
             const currentSeg = segments[currentSegmentIndex];
             
-            // If we approach 0.8 seconds before the end of the segment, crossfade to the next segment
             if (audio.currentTime >= (currentSeg.end - 0.8)) {
                 currentSegmentIndex = (currentSegmentIndex + 1) % segments.length;
                 const nextSeg = segments[currentSegmentIndex];
@@ -1260,7 +1212,6 @@
             }
         }
 
-        // Opening the Envelope unlocks & plays the local audio immediately
         envelopeScreen.addEventListener('click', () => {
             envelopeScreen.classList.add('opening');
             startBackgroundMusic();
@@ -1270,7 +1221,6 @@
             }, 650);
         });
 
-        // Play/Pause Manual Button Logic
         musicBtn.addEventListener('click', (e) => {
             e.stopPropagation(); 
             if (isPlaying) {
